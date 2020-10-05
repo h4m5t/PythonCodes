@@ -59,7 +59,7 @@ if __name__ == '__main__':
         fin.close()
         f.close()
         
-        alltime=(end-start)/10
+        alltime=end-start
         print("加密耗时: %0.5s"%alltime+' s')
         v=msize/alltime
         print("加密速率：%0.5s"%v+' MB/s')
@@ -88,7 +88,7 @@ if __name__ == '__main__':
         fin.close()
         f.close()
               
-        alltime=(end-start)/10
+        alltime=end-start
         print("解密耗时: %0.5s"%alltime+' s')
         v=msize/alltime
         print("解密速率：%0.5s"%v+' MB/s')
